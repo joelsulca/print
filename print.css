@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    padding: 0.5em;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+}
+
+.info label {
+    width: 11em;
+    display: -webkit-inline-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.printContent {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.printContent > div {
+    text-align: center;
+}
+
+.printContent > div > div {
+    text-align: left;
+}
+
+.printContent > div > div > div {
+    text-align: left;
+}
+.transport label {
+    width: 12em;
+    display: -webkit-inline-box;
+}
+
+.infoFooter {
+    font-size: 8px;
+}
+.descrip {
+    line-height: 0.8em;
+}
+.descrip label{
+    width: 8em;
+    display: -webkit-inline-box;
+}
+
+#tbodyResult th:nth-child(1),
+#tbodyResult td:nth-child(1) {
+    text-align: left;
+}
+
+#tbody1 {
+    border-bottom: 1px solid;
+    border-bottom-style: dashed;
+}
